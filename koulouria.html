@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+background-color:black;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+position:relative;
+color:white;
+font-size: 30px;
+
+}
+
+
+p{
+position:absolute;
+font-size:30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+float:left;
+position:relative;
+left:450px;
+}
+
+
+li a {
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 44px 50px;
+  text-decoration: none;
+
+}
+
+li a:hover {
+  background-color: #DCC9C5;
+  color:#E8F3CE;
+}
+
+li2 {
+float:right;
+position:relative;
+right:450px;
+}
+
+li2 a {
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 44px 50px;
+  text-decoration: none;
+
+}
+
+li2 a:hover {
+  background-color: #DCC9C5;
+  color:#E8F3CE;
+}
+
+lionimg {
+position:absolute;
+top:10px;
+left:870px;
+}
+
+
+
+.container2 {
+  position: absolute;
+  text-align: center;
+  color: gray;
+  background-color:white;
+  border-style: solid;
+    width: 15%;
+  height: 35%;
+   left:20%;
+   top:30%;
+  
+}
+
+  .btn {
+  position:relative;
+  left:25%;
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 26px;
+  cursor: pointer;
+  display: inline-block;
+  color:lightblue;
+  text-decoration: none;
+}
+
+
+
+
+
+.bottom-left {
+  position: absolute;
+  top: 80%;
+  width:100%;
+  height:66px;
+  background-color: lightgray;
+  float:left;
+  color:black;
+  font-size:11px;
+  }
+ 
+.ingredients {
+position:absolute;
+left:20%;
+top:10px;
+
+} 
+ 
+
+
+</style>
+</head>
+<body>
+<ul>
+  <li><a href="http://localhost:8080/sitefournos2/productsmenu.html">Products</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+
+  <li2><a href="">About</a></li2>
+  <li2><a href="contact.html">Contact</a></li2>
+
+
+</ul>
+<lionimg>
+ <a href="http://localhost:8080/sitefournos2/xasimoxronou.html"><img class="lionimg" src="LionIcon.png" style="border:none" alt="" width="200" height="100"></a>
+ </lionimg>
+
+
+<h2><center>Koulouria</center></h2>
+<br>
+
+<button class="btn" onclick="myFunction4()" style="left:700px;">Moustokouloura</button>
+<button class="btn" onclick="myFunction5()" style="left:703px;">Kritsinia</button>
+<button class="btn" onclick="myFunction6()" style="left:703px;">Boutimata</button>
+
+
+
+<div id="moustokoulouracontainer" style="display:none;">
+<div  class="container2" style="display:block;">
+
+ <img  src="http://localhost:8080/sitefournos2/images/DSC00013.JPG" style="float:right;" alt="" width="100%" height="80%">
+ <div class="bottom-left" >
+<h1>Moustokoulouro aplo</h1>
+
+</div>
+</div>
+ 
+<div  class="container2" style="left:36%;">
+ <img  src="http://localhost:8080/sitefournos2/images/DSC00010.JPG" style="float:right;" alt="" width="100%" height="100%">
+
+ <div class="bottom-left">
+<h1>Moustokoulouro me stafides</h1>
+</div>
+</div>
+ 
+<div  class="container2" style="left:52%;">
+ <img  src="http://localhost:8080/sitefournos2/images/DSC00012.JPG" style="float:right;" alt="" width="100%" height="100%">
+ <div class="bottom-left">
+<h1>Moustokoulouro me stafides kai karidi</h1>
+</div>
+</div>
+
+<div  class="container2" style="left:68%;">
+ <img  src="http://localhost:8080/sitefournos2/images/DSC00014.JPG" alt="" width="100%" height="100%">
+ <div class="bottom-left">
+<h1>Moustokoulouro ouzou</h1>
+
+</div>
+</div>
+</div>
+
+<div id="kritsiniacontainer" style="display:none;">
+<div  class="container2" style="display:block;">
+ <img  src="http://localhost:8080/sitefournos2/images/DSC00032.JPG" style="float:right;" alt="" width="100%" height="80%">
+ <div class="bottom-left" >
+<h1>Regato</h1>
+</div>
+</div>
+ 
+<div  class="container2" style="left:36%;">
+ <img  src="http://localhost:8080/sitefournos2/images/DSC00022.JPG" style="float:right;" alt="" width="100%" height="100%">
+ <div class="bottom-left">
+<h1>Polysporo</h1>
+</div>
+</div>
+ 
+<div  class="container2" style="left:52%;">
+ <img  src="http://localhost:8080/sitefournos2/images/DSC00021.JPG" style="float:right;" alt="" width="100%" height="100%">
+ <div class="bottom-left">
+<h1>Chips</h1>
+</div>
+</div>
+
+<div  class="container2" style="left:68%;">
+ <img  src="http://localhost:8080/sitefournos2/images/DSC00030.JPG" alt="" width="100%" height="100%">
+ <div class="bottom-left">
+<h1>Pantzari</h1>
+</div>
+</div>
+<div  class="container2" style="top:67%;">
+ <img  src="http://localhost:8080/sitefournos2/images/DSC00033.JPG" style="float:right;" alt="" width="100%" height="100%">
+ <div class="bottom-left">
+<h1>Sousami</h1>
+</div>
+</div>
+
+ <div  class="container2" style="top:67%; left: 36%;">
+ <img src="http://localhost:8080/sitefournos2/images/DSC00023.JPG" style="float:right;" alt="" width="100%" height="100%">
+ <div class="bottom-left" >
+<h1>Kalampoki</h1>
+</div>
+</div>
+
+<div  class="container2" style="top:67%; left: 52%;">
+ <img  src="http://localhost:8080/sitefournos2/images/DSC00024.JPG" style="float:right;" alt="" width="100%" height="100%">
+ <div class="bottom-left">
+<h1>Karoto</h1>
+</div>
+</div>
+
+ <div  class="container2" style="top:67%; left: 68%;">
+ <img  src="http://localhost:8080/sitefournos2/images/DSC00009.JPG" style="float:right;" alt="" width="100%" height="100%">
+ <div class="bottom-left">
+<h1>Kanela</h1>
+</div>
+</div>
+</div>
+
+<div id="boutimata" style="display:none;">
+<div  class="container2" style="display:block;">
+ <img  src="" style="float:right;" alt="" width="100%" height="80%">
+ <div class="bottom-left" >
+<h1></h1>
+</div>
+</div>
+ 
+<div  class="container2" style="left:36%;">
+ <img  src="" style="float:right;" alt="" width="100%" height="100%">
+ <div class="bottom-left">
+<h1></h1>
+</div>
+</div>
+ 
+<div  class="container2" style="left:52%;">
+ <img  src="" style="float:right;" alt="" width="100%" height="100%">
+ <div class="bottom-left">
+<h1></h1>
+</div>
+</div>
+
+<div  class="container2" style="left:68%;">
+ <img  src="" alt="" width="50%" height="100%">
+ <div class="bottom-left">
+<h1></h1>
+</div>
+</div>
+<div  class="container2" style="top:67%;">
+ <img  src="" style="float:right;" alt="" width="100%" height="100%">
+ <div class="bottom-left">
+<h1></h1>
+</div>
+</div>
+
+ <div  class="container2" style="top:67%; left: 36%;">
+ <img src="" style="float:right;" alt="" width="100%" height="100%">
+ <div class="bottom-left" >
+<h1></h1>
+</div>
+</div>
+
+<div  class="container2" style="top:67%; left: 52%;">
+ <img  src="" style="float:right;" alt="" width="100%" height="100%">
+ <div class="bottom-left">
+<h1></h1>
+</div>
+</div>
+
+ <div  class="container2" style="top:67%; left: 68%;">
+ <img  src="" style="float:right;" alt="" width="100%" height="100%">
+ <div class="bottom-left">
+<h1></h1>
+</div>
+</div>
+</div>
+
+
+
+ <script>
+function myFunction4() {
+  document.getElementById("moustokoulouracontainer").style.display = "block";
+  document.getElementById("kritsiniacontainer").style.display = "none";
+  document.getElementById("boutimata").style.display = "none";
+}
+</script>
+ <script>
+function myFunction5() {
+  document.getElementById("kritsiniacontainer").style.display = "block";
+  document.getElementById("moustokoulouracontainer").style.display = "none";
+  document.getElementById("boutimata").style.display = "none";
+}
+</script>
+ <script>
+function myFunction6() {
+  document.getElementById("boutimata").style.display = "block";
+  document.getElementById("kritsiniacontainer").style.display = "none";
+  document.getElementById("moustokoulouracontainer").style.display = "none";
+}
+</script>
+
+</body>
+</html>

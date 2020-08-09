@@ -1,0 +1,168 @@
+
+<html>
+<head>
+<style>
+body {
+  background-color: lightgray;
+  background-image: url("sepia50.jpg");
+  background-repeat: no-repeat;
+    background-size:100% 100%;
+
+}
+
+form{
+display:none;
+}
+
+
+
+li5 {
+float:left;
+position:relative;
+top:20px;
+background-color: lightgray;
+}
+
+li6 {
+float:left;
+position:relative;
+top: 350px;
+left:0px;
+background-color: lightblue;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+float:left;
+position:relative;
+left:450px;
+}
+
+
+li a {
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 44px 50px;
+  text-decoration: none;
+
+}
+
+li a:hover {
+  background-color: #DCC9C5;
+  color:#E8F3CE;
+}
+
+li2 {
+float:right;
+position:relative;
+right:450px;
+}
+
+li2 a {
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 44px 50px;
+  text-decoration: none;
+
+}
+
+li2 a:hover {
+  background-color: #DCC9C5;
+  color:#E8F3CE;
+}
+
+img{
+position:absolute;
+top:10px;
+left:870px;
+}
+</style>
+</head>
+<body>
+
+
+
+
+
+<ul>
+  <li><a href="proiontaparagwgismas.html">Products</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+  <li><a href="about.html">About</a></li>
+  <li2><a href="contact.html">Contact</a></li2>
+
+
+</ul>
+
+<img class="img" src="LionIcon.png" alt="" width="200" height="100">
+
+
+<button onclick="asd()">Εγγραφή</button>
+<button onclick ="asd2()">Σύνδεση</button>
+
+<form  id="signup" action="" method="post">
+<li5>
+<fieldset>
+<legend>Εγγραφή</legend>
+<p>Όνομα Χρήστη:<br> <input type="text" name="username"</p>
+<p>Κωδικός: <br><input type="password" name="password"</p>
+<p>Όνομα: <br><input type="text" name="name"</p>
+<p>Επίθετο: <br><input type="text" name="surname"</p>
+<p>Διέυθυνση: <br><input type="text" name="address"</p>
+<p>Email: <br><input type="text" name="emai" </p>
+<p>Ηλικία: <br><input type="text" name="age" </p><br><br>
+<input type="submit" value="Submit">
+</fieldset>
+</li5>
+</form>
+
+<form  id="signin" action="connection.php" method="post" >
+
+<li5>
+<fieldset>
+<legend> Σύνδεση</legend>
+<p>Όνομα Χρήστη:<br> <input type="text" name="username"</p>
+<p>Κωδικός: <br><input type="password" name="password"</p><br><br>
+<input type="submit" value="Submit">
+</fieldset>
+</li5>
+</form>
+<script>
+function asd()
+{
+    
+        document.getElementById("signup").style.display="block";
+		document.getElementById("signin").style.display="none";
+}
+function asd2()
+{
+    
+        document.getElementById("signin").style.display="block";
+		document.getElementById("signup").style.display="none";
+		
+}
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
